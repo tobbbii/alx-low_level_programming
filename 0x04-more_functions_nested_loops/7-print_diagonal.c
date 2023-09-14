@@ -3,7 +3,7 @@
 /**
  * print_diagonal - prints diagional lines
  * @n: number of times to be printed
- * Return: void
+ * Return: 0
  */
 
 void print_diagonal(int n)
