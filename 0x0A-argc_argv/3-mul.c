@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to integer
+ * atoi - converts a string to integer
  * @s: string to be converted
  * Return: the int converted from the string
  */
 
-int _atoi(char *s)
+int atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
@@ -61,8 +61,8 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
 	result = num1 * num2;
 	printf("%d\n", result);
 
